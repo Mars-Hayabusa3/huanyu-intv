@@ -3,6 +3,12 @@
     margin-bottom: 0;
 }
 
+@media screen and (min-width:1400px) {
+    .container {
+        max-width: 960px;
+    }
+}
+
 .banner-img {
     width: 100%;
 }
@@ -76,6 +82,10 @@ li.text {
     flex: 0 0 50%;
 }
 
+.info-title {
+    min-width: 130px;
+}
+
 .package {
     max-width: 418px;
 }
@@ -86,4 +96,16 @@ li.text {
 
 .form-row {
     flex-wrap: nowrap !important;
+    margin-bottom: 32px;
+}
+
+form>.form-group {
+    margin-bottom: 53px;
+}
+
+.btn {
+    width: 260px;
+    height: 35px;
+    background: #62A9AC;
+    border-radius: 0;
 }
