@@ -210,3 +210,9 @@ form>.form-group {
     padding-bottom: 17px;
     color: #AD7B43;
 }
+
+@media screen and (max-width: 760px) {
+    .form-row {
+        flex-wrap: wrap !important;
+    }
+}
