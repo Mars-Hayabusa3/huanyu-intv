@@ -13,6 +13,27 @@ body {
     }
 }
 
+.start-logo {
+    width: 100px;
+    position: absolute;
+    top: 35px;
+    left: 20vw;
+}
+
+.start-slogan {
+    width: 250px;
+    position: absolute;
+    top: 32px;
+    left: calc(20vw + 120px);
+}
+
+.start-img {
+    width: 310px;
+    position: absolute;
+    top: 95px;
+    left: calc(20vw + 108px);
+}
+
 .banner-img {
     width: 100%;
 }
@@ -23,7 +44,7 @@ body {
 }
 
 .row-1st-paragf {
-    justify-content: center;
+    justify-content: space-around;
 }
 
 .col-1st-paragf {
@@ -32,11 +53,13 @@ body {
 
 .col-1st-paragf:nth-child(2) {
     display: flex;
-    align-items: center;
+    flex-direction: column;
+    justify-content: flex-end;
 }
 
 .pregnant {
     height: auto;
+    margin-bottom: 5px;
 }
 
 li.text {
@@ -61,12 +84,38 @@ li.text {
     line-height: calc(3rem + 2px);
 }
 
+.dot-flexer {
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.dot {
+    margin-right: 12px;
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+    background: #A7A0A0;
+}
+
+.dot:first-child {
+    background: #FFB03A;
+}
+
+.dot:last-child {
+    margin-right: 0;
+}
+
+.container-info {
+    margin-top: 60px;
+}
+
 .caption {
     color: #cc6d00;
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
+    margin-bottom: 25px;
 }
 
 .caption:after, .caption:before {
@@ -116,6 +165,8 @@ li.text {
 .container-pos {
     position: relative;
     min-height: 670px;
+    margin-top: 110px;
+    margin-bottom: 60px;
 }
 
 .package {
@@ -164,6 +215,16 @@ li.text {
 
 form>.form-group {
     margin-bottom: 53px;
+}
+
+.form-group>label {
+    color: #62A9AC;
+}
+
+.form-control {
+    border: 1px solid #62A9AC;
+    border-radius: 0;
+    margin-top: 10px;
 }
 
 .button-flexer2 {
