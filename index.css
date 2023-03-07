@@ -254,6 +254,7 @@ form>.form-group {
 
 .flex-footer {
     display: flex;
+    align-items: center;
 }
 
 .flex-footer:nth-child(1) {
@@ -262,6 +263,19 @@ form>.form-group {
 
 .flex-footer:last-child {
     margin-bottom: 65px;
+}
+
+.footer-logo {
+    margin-right: 10px;
+}
+
+.mr-15 {
+    margin-right: 15px;
+}
+
+.footer-icons {
+    width: 17px;
+    margin-right: 3px;
 }
 
 .footer2 {
