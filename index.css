@@ -134,16 +134,17 @@ li.text {
     border-radius: 20px;
     padding: 2rem 2rem;
     margin-bottom: 1rem;
+    align-items: center;
+}
+
+.mb-5px {
+    margin-bottom: 5px;
 }
 
 .info {
     display: flex;
     align-items: center;
     flex: 0 0 50%;
-}
-
-.info-box {
-    align-items: center;
 }
 
 .info-title {
@@ -160,6 +161,16 @@ li.text {
 
 .info-content>ol {
     padding-left: 1rem;
+}
+
+.notice-flexer {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.red-notice {
+    font-size: small;
+    color: #F00;
 }
 
 .container-pos {
@@ -330,6 +341,10 @@ form>.form-group {
         border-radius: 10px;
         padding: 1rem 1rem;
         margin-bottom: 0.5rem;
+    }
+
+    .red-notice {
+        text-align: right;
     }
 
     .container-pos {
