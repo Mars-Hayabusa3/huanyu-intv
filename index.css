@@ -13,6 +13,10 @@ body {
     }
 }
 
+.banner-img {
+    width: 100%;
+}
+
 .start-logo {
     width: 100px;
     position: absolute;
@@ -34,8 +38,28 @@ body {
     left: calc(20vw + 108px);
 }
 
-.banner-img {
-    width: 100%;
+.dragon-left {
+    width: 220px;
+    position: absolute;
+    top: 420px;
+    left: 0px;
+}
+
+.dragon-right {
+    width: 220px;
+    position: absolute;
+    top: 1620px;
+    right: 0px;
+}
+
+@media screen and (max-width: 1200px) {
+    .dragon-left {
+        width: 150px;
+    }
+
+    .dragon-right {
+        width: 150px;
+    }
 }
 
 .row {
@@ -188,6 +212,7 @@ li.text {
 }
 
 .wood {
+    width: 100%;
     position: absolute;
     left: 0px;
     top: 350px;
@@ -297,6 +322,7 @@ form>.form-group {
     color: #AD7B43;
 }
 
+/* RWD */
 @media screen and (max-width: 760px) {
     .start-flexer {
         justify-content: center;
